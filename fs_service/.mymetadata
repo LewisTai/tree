@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="superman"
+  id="myeclipse.1375198183779"
+  context-root="/superman"
+  j2ee-spec="5.0"
+  archive="superman.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
