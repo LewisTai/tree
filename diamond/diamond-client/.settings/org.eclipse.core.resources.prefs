@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+encoding//src/main/java=gbk
+encoding//src/main/java/com/taobao/diamond/client/DiamondClientSub.java=gbk
+encoding//src/main/java/com/taobao/diamond/client/DiamondConfigure.java=gbk
+encoding//src/main/java/com/taobao/diamond/client/DiamondSubscriber.java=gbk
+encoding//src/main/java/com/taobao/diamond/client/SubscriberListener.java=gbk
+encoding//src/main/java/com/taobao/diamond/client/impl/DefaultDiamondSubscriber.java=gbk
+encoding//src/main/java/com/taobao/diamond/client/impl/DefaultSubscriberListener.java=gbk
+encoding//src/main/java/com/taobao/diamond/client/impl/DiamondClientFactory.java=gbk
+encoding//src/main/java/com/taobao/diamond/client/processor/LocalConfigInfoProcessor.java=gbk
+encoding//src/main/java/com/taobao/diamond/client/processor/ServerAddressProcessor.java=gbk
+encoding//src/main/java/com/taobao/diamond/configinfo/CacheData.java=gbk
+encoding//src/main/java/com/taobao/diamond/configinfo/ConfigureInfomation.java=gbk
+encoding//src/main/java/com/taobao/diamond/manager/DiamondManager.java=gbk
+encoding//src/main/java/com/taobao/diamond/manager/ManagerListener.java=gbk
+encoding//src/main/java/com/taobao/diamond/manager/impl/DefaultDiamondManager.java=gbk
+encoding//src/main/java/com/taobao/diamond/manager/impl/PropertiesListener.java=gbk

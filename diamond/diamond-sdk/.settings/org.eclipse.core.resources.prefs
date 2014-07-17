@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/taobao/diamond/domain/BatchContextResult.java=gbk
+encoding//src/main/java/com/taobao/diamond/domain/ContextResult.java=gbk
+encoding//src/main/java/com/taobao/diamond/domain/DiamondConf.java=gbk
+encoding//src/main/java/com/taobao/diamond/domain/DiamondSDKConf.java=gbk
+encoding//src/main/java/com/taobao/diamond/domain/PageContextResult.java=gbk
+encoding//src/main/java/com/taobao/diamond/sdkapi/DiamondSDKManager.java=gbk
+encoding//src/main/java/com/taobao/diamond/sdkapi/impl/DiamondSDKManagerImpl.java=gbk
+encoding//src/main/java/com/taobao/diamond/util/DiamondUtils.java=gbk

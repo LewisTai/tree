@@ -1,0 +1,472 @@
+2014-07-15 17:28:38,639 INFO  context.ContextLoader - Root WebApplicationContext: initialization started
+2014-07-15 17:28:38,717 INFO  support.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Tue Jul 15 17:28:38 CST 2014]; root of context hierarchy
+2014-07-15 17:28:38,827 INFO  xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2014-07-15 17:28:39,108 INFO  support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@a4cef0: defining beans [servletContext,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,adminController,configController,loginController,notifyController,adminService,configService,diskService,notifyService,persistService,timerTaskService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2014-07-15 17:28:39,202 INFO  service.NotifyService - 节点列表:{}
+2014-07-15 17:28:39,233 INFO  annotation.DefaultAnnotationHandlerMapping - Mapped URL path [/admin.do] onto handler 'adminController'
+2014-07-15 17:28:39,233 INFO  annotation.DefaultAnnotationHandlerMapping - Mapped URL path [/login.do] onto handler 'loginController'
+2014-07-15 17:28:39,249 INFO  annotation.DefaultAnnotationHandlerMapping - Mapped URL path [/notify.do] onto handler 'notifyController'
+2014-07-15 17:28:39,702 INFO  context.ContextLoader - Root WebApplicationContext: initialization completed in 1063 ms
+2014-07-15 17:28:39,749 INFO  servlet.DispatcherServlet - FrameworkServlet 'diamond': initialization started
+2014-07-15 17:28:39,749 INFO  support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'diamond-servlet': startup date [Tue Jul 15 17:28:39 CST 2014]; parent: Root WebApplicationContext
+2014-07-15 17:28:39,764 INFO  xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/diamond-servlet.xml]
+2014-07-15 17:28:39,795 INFO  support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1857be3: defining beans [viewResolver]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@a4cef0
+2014-07-15 17:28:39,858 INFO  servlet.DispatcherServlet - FrameworkServlet 'diamond': initialization completed in 109 ms
+2014-07-15 17:29:28,717 INFO  context.ContextLoader - Root WebApplicationContext: initialization started
+2014-07-15 17:29:28,780 DEBUG support.StandardServletEnvironment - Initializing new StandardServletEnvironment
+2014-07-15 17:29:28,780 DEBUG support.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2014-07-15 17:29:28,780 DEBUG support.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2014-07-15 17:29:28,780 DEBUG support.StandardServletEnvironment - Adding [jndiProperties] PropertySource with lowest search precedence
+2014-07-15 17:29:28,780 DEBUG support.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:29:28,780 DEBUG support.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:29:28,780 DEBUG support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2014-07-15 17:29:28,795 INFO  support.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Tue Jul 15 17:29:28 CST 2014]; root of context hierarchy
+2014-07-15 17:29:28,795 DEBUG support.StandardServletEnvironment - Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+2014-07-15 17:29:28,827 DEBUG env.StandardEnvironment - Initializing new StandardEnvironment
+2014-07-15 17:29:28,827 DEBUG env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:29:28,827 DEBUG env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:29:28,827 DEBUG env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-07-15 17:29:28,827 DEBUG env.StandardEnvironment - Initializing new StandardEnvironment
+2014-07-15 17:29:28,827 DEBUG env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:29:28,827 DEBUG env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:29:28,827 DEBUG env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-07-15 17:29:28,842 INFO  xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2014-07-15 17:29:28,842 DEBUG xml.DefaultDocumentLoader - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2014-07-15 17:29:28,874 DEBUG xml.PluggableSchemaResolver - Loading schema mappings from [META-INF/spring.schemas]
+2014-07-15 17:29:28,874 DEBUG xml.PluggableSchemaResolver - Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+2014-07-15 17:29:28,874 DEBUG xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2014-07-15 17:29:28,905 DEBUG xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/context/spring-context-2.5.xsd] in classpath: org/springframework/context/config/spring-context-2.5.xsd
+2014-07-15 17:29:28,905 DEBUG xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-2.5.xsd
+2014-07-15 17:29:28,920 DEBUG xml.DefaultBeanDefinitionDocumentReader - Loading bean definitions
+2014-07-15 17:29:28,936 DEBUG xml.BeanDefinitionParserDelegate - Neither XML 'id' nor 'name' specified - using generated bean name [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0]
+2014-07-15 17:29:28,936 DEBUG xml.BeanDefinitionParserDelegate - Neither XML 'id' nor 'name' specified - using generated bean name [org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0]
+2014-07-15 17:29:28,936 DEBUG xml.DefaultNamespaceHandlerResolver - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2014-07-15 17:29:28,952 DEBUG env.StandardEnvironment - Initializing new StandardEnvironment
+2014-07-15 17:29:28,952 DEBUG env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:29:28,952 DEBUG env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:29:28,952 DEBUG env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-07-15 17:29:28,967 DEBUG support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\controller]
+2014-07-15 17:29:28,967 DEBUG support.PathMatchingResourcePatternResolver - Searching directory [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\controller] for files matching pattern [D:/eclipse4/workspace/diamond/diamond-server/target/classes/com/taobao/diamond/server/controller/**/*.class]
+2014-07-15 17:29:28,967 DEBUG support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/taobao/diamond/server/controller/**/*.class] to resources [file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\controller\AdminController.class], file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\controller\ConfigController$ConfigKey.class], file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\controller\ConfigController.class], file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\controller\ConfigServlet.class], file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\controller\LoginController.class], file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\controller\NotifyController.class]]
+2014-07-15 17:29:28,999 DEBUG annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\controller\AdminController.class]
+2014-07-15 17:29:29,014 DEBUG annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\controller\ConfigController.class]
+2014-07-15 17:29:29,014 DEBUG annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\controller\LoginController.class]
+2014-07-15 17:29:29,014 DEBUG annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\controller\NotifyController.class]
+2014-07-15 17:29:29,014 DEBUG support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service]
+2014-07-15 17:29:29,014 DEBUG support.PathMatchingResourcePatternResolver - Searching directory [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service] for files matching pattern [D:/eclipse4/workspace/diamond/diamond-server/target/classes/com/taobao/diamond/server/service/**/*.class]
+2014-07-15 17:29:29,077 DEBUG support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/taobao/diamond/server/service/**/*.class] to resources [file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\AdminService.class], file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\ConfigService.class], file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\DiskService.class], file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\DumpConfigInfoTask.class], file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\NotifyService.class], file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\PersistService$1.class], file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\PersistService$2.class], file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\PersistService$3.class], file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\PersistService$ConfigInfoRowMapper.class], file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\PersistService.class], file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\TimerTaskService$1.class], file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\TimerTaskService.class]]
+2014-07-15 17:29:29,077 DEBUG annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\AdminService.class]
+2014-07-15 17:29:29,077 DEBUG annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\ConfigService.class]
+2014-07-15 17:29:29,077 DEBUG annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\DiskService.class]
+2014-07-15 17:29:29,077 DEBUG annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\NotifyService.class]
+2014-07-15 17:29:29,077 DEBUG annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\PersistService.class]
+2014-07-15 17:29:29,077 DEBUG annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\eclipse4\workspace\diamond\diamond-server\target\classes\com\taobao\diamond\server\service\TimerTaskService.class]
+2014-07-15 17:29:29,092 DEBUG xml.XmlBeanDefinitionReader - Loaded 17 bean definitions from location pattern [/WEB-INF/applicationContext.xml]
+2014-07-15 17:29:29,092 DEBUG support.XmlWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@16246a9: defining beans [servletContext,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,adminController,configController,loginController,notifyController,adminService,configService,diskService,notifyService,persistService,timerTaskService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
+2014-07-15 17:29:29,124 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2014-07-15 17:29:29,124 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2014-07-15 17:29:29,139 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2014-07-15 17:29:29,139 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2014-07-15 17:29:29,170 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2014-07-15 17:29:29,170 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2014-07-15 17:29:29,170 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2014-07-15 17:29:29,170 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2014-07-15 17:29:29,170 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2014-07-15 17:29:29,170 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2014-07-15 17:29:29,170 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2014-07-15 17:29:29,170 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2014-07-15 17:29:29,170 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2014-07-15 17:29:29,170 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2014-07-15 17:29:29,186 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2014-07-15 17:29:29,186 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2014-07-15 17:29:29,186 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+2014-07-15 17:29:29,186 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+2014-07-15 17:29:29,186 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0' to allow for resolving potential circular references
+2014-07-15 17:29:29,186 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+2014-07-15 17:29:29,186 DEBUG support.XmlWebApplicationContext - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@a158e8]
+2014-07-15 17:29:29,186 DEBUG support.XmlWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@15efc0a]
+2014-07-15 17:29:29,186 DEBUG support.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@116ea43]
+2014-07-15 17:29:29,186 INFO  support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@16246a9: defining beans [servletContext,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,adminController,configController,loginController,notifyController,adminService,configService,diskService,notifyService,persistService,timerTaskService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2014-07-15 17:29:29,186 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'servletContext'
+2014-07-15 17:29:29,186 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'servletContext'
+2014-07-15 17:29:29,186 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'servletContext' to allow for resolving potential circular references
+2014-07-15 17:29:29,202 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'servletContext'
+2014-07-15 17:29:29,202 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0'
+2014-07-15 17:29:29,202 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0'
+2014-07-15 17:29:29,217 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0' to allow for resolving potential circular references
+2014-07-15 17:29:29,233 DEBUG annotation.DefaultAnnotationHandlerMapping - Looking for URL mappings in application context: Root WebApplicationContext: startup date [Tue Jul 15 17:29:28 CST 2014]; root of context hierarchy
+2014-07-15 17:29:29,233 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'servletContext': no URL paths identified
+2014-07-15 17:29:29,233 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0': no URL paths identified
+2014-07-15 17:29:29,233 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0': no URL paths identified
+2014-07-15 17:29:29,249 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'adminController'
+2014-07-15 17:29:29,249 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'adminController'
+2014-07-15 17:29:29,249 DEBUG annotation.InjectionMetadata - Found injected element on class [com.taobao.diamond.server.controller.AdminController]: AutowiredFieldElement for private com.taobao.diamond.server.service.AdminService com.taobao.diamond.server.controller.AdminController.adminService
+2014-07-15 17:29:29,249 DEBUG annotation.InjectionMetadata - Found injected element on class [com.taobao.diamond.server.controller.AdminController]: AutowiredFieldElement for private com.taobao.diamond.server.service.ConfigService com.taobao.diamond.server.controller.AdminController.configService
+2014-07-15 17:29:29,249 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'adminController' to allow for resolving potential circular references
+2014-07-15 17:29:29,249 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'adminService'
+2014-07-15 17:29:29,249 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'adminService'
+2014-07-15 17:29:29,264 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'adminService' to allow for resolving potential circular references
+2014-07-15 17:29:29,264 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'adminService'
+2014-07-15 17:29:29,264 DEBUG support.DefaultListableBeanFactory - Added autowiring by name from bean name 'adminController' via property 'adminService' to bean named 'adminService'
+2014-07-15 17:29:29,264 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'configService'
+2014-07-15 17:29:29,264 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'configService'
+2014-07-15 17:29:29,264 DEBUG annotation.InjectionMetadata - Found injected element on class [com.taobao.diamond.server.service.ConfigService]: AutowiredFieldElement for private com.taobao.diamond.server.service.PersistService com.taobao.diamond.server.service.ConfigService.persistService
+2014-07-15 17:29:29,264 DEBUG annotation.InjectionMetadata - Found injected element on class [com.taobao.diamond.server.service.ConfigService]: AutowiredFieldElement for private com.taobao.diamond.server.service.DiskService com.taobao.diamond.server.service.ConfigService.diskService
+2014-07-15 17:29:29,264 DEBUG annotation.InjectionMetadata - Found injected element on class [com.taobao.diamond.server.service.ConfigService]: AutowiredFieldElement for private com.taobao.diamond.server.service.NotifyService com.taobao.diamond.server.service.ConfigService.notifyService
+2014-07-15 17:29:29,264 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'configService' to allow for resolving potential circular references
+2014-07-15 17:29:29,264 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'diskService'
+2014-07-15 17:29:29,264 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'diskService'
+2014-07-15 17:29:29,264 DEBUG annotation.InjectionMetadata - Found injected element on class [com.taobao.diamond.server.service.DiskService]: AutowiredFieldElement for private javax.servlet.ServletContext com.taobao.diamond.server.service.DiskService.servletContext
+2014-07-15 17:29:29,264 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'diskService' to allow for resolving potential circular references
+2014-07-15 17:29:29,280 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'servletContext'
+2014-07-15 17:29:29,280 DEBUG support.DefaultListableBeanFactory - Added autowiring by name from bean name 'diskService' via property 'servletContext' to bean named 'servletContext'
+2014-07-15 17:29:29,280 DEBUG annotation.InjectionMetadata - Processing injected method of bean 'diskService': AutowiredFieldElement for private javax.servlet.ServletContext com.taobao.diamond.server.service.DiskService.servletContext
+2014-07-15 17:29:29,280 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'servletContext'
+2014-07-15 17:29:29,280 DEBUG annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'diskService' to bean named 'servletContext'
+2014-07-15 17:29:29,280 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'diskService'
+2014-07-15 17:29:29,280 DEBUG support.DefaultListableBeanFactory - Added autowiring by name from bean name 'configService' via property 'diskService' to bean named 'diskService'
+2014-07-15 17:29:29,280 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'notifyService'
+2014-07-15 17:29:29,280 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'notifyService'
+2014-07-15 17:29:29,280 DEBUG annotation.CommonAnnotationBeanPostProcessor - Found init method on class [com.taobao.diamond.server.service.NotifyService]: public void com.taobao.diamond.server.service.NotifyService.loadNodes()
+2014-07-15 17:29:29,280 DEBUG annotation.CommonAnnotationBeanPostProcessor - Found init method on class [com.taobao.diamond.server.service.NotifyService]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@51e17d6b
+2014-07-15 17:29:29,280 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'notifyService' to allow for resolving potential circular references
+2014-07-15 17:29:29,295 DEBUG annotation.CommonAnnotationBeanPostProcessor - Invoking init method on bean 'notifyService': public void com.taobao.diamond.server.service.NotifyService.loadNodes()
+2014-07-15 17:29:29,295 INFO  service.NotifyService - 节点列表:{}
+2014-07-15 17:29:29,295 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'notifyService'
+2014-07-15 17:29:29,295 DEBUG support.DefaultListableBeanFactory - Added autowiring by name from bean name 'configService' via property 'notifyService' to bean named 'notifyService'
+2014-07-15 17:29:29,295 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'persistService'
+2014-07-15 17:29:29,295 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'persistService'
+2014-07-15 17:29:29,295 DEBUG annotation.CommonAnnotationBeanPostProcessor - Found init method on class [com.taobao.diamond.server.service.PersistService]: public void com.taobao.diamond.server.service.PersistService.initDataSource() throws java.lang.Exception
+2014-07-15 17:29:29,295 DEBUG annotation.CommonAnnotationBeanPostProcessor - Found init method on class [com.taobao.diamond.server.service.PersistService]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@826c8995
+2014-07-15 17:29:29,295 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'persistService' to allow for resolving potential circular references
+2014-07-15 17:29:29,295 DEBUG annotation.CommonAnnotationBeanPostProcessor - Invoking init method on bean 'persistService': public void com.taobao.diamond.server.service.PersistService.initDataSource() throws java.lang.Exception
+2014-07-15 17:29:29,311 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'persistService'
+2014-07-15 17:29:29,311 DEBUG support.DefaultListableBeanFactory - Added autowiring by name from bean name 'configService' via property 'persistService' to bean named 'persistService'
+2014-07-15 17:29:29,311 DEBUG annotation.InjectionMetadata - Processing injected method of bean 'configService': AutowiredFieldElement for private com.taobao.diamond.server.service.PersistService com.taobao.diamond.server.service.ConfigService.persistService
+2014-07-15 17:29:29,311 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'persistService'
+2014-07-15 17:29:29,311 DEBUG annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'configService' to bean named 'persistService'
+2014-07-15 17:29:29,311 DEBUG annotation.InjectionMetadata - Processing injected method of bean 'configService': AutowiredFieldElement for private com.taobao.diamond.server.service.DiskService com.taobao.diamond.server.service.ConfigService.diskService
+2014-07-15 17:29:29,311 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'diskService'
+2014-07-15 17:29:29,311 DEBUG annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'configService' to bean named 'diskService'
+2014-07-15 17:29:29,311 DEBUG annotation.InjectionMetadata - Processing injected method of bean 'configService': AutowiredFieldElement for private com.taobao.diamond.server.service.NotifyService com.taobao.diamond.server.service.ConfigService.notifyService
+2014-07-15 17:29:29,311 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'notifyService'
+2014-07-15 17:29:29,311 DEBUG annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'configService' to bean named 'notifyService'
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'configService'
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Added autowiring by name from bean name 'adminController' via property 'configService' to bean named 'configService'
+2014-07-15 17:29:29,327 DEBUG annotation.InjectionMetadata - Processing injected method of bean 'adminController': AutowiredFieldElement for private com.taobao.diamond.server.service.AdminService com.taobao.diamond.server.controller.AdminController.adminService
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'adminService'
+2014-07-15 17:29:29,327 DEBUG annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'adminController' to bean named 'adminService'
+2014-07-15 17:29:29,327 DEBUG annotation.InjectionMetadata - Processing injected method of bean 'adminController': AutowiredFieldElement for private com.taobao.diamond.server.service.ConfigService com.taobao.diamond.server.controller.AdminController.configService
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'configService'
+2014-07-15 17:29:29,327 DEBUG annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'adminController' to bean named 'configService'
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'adminController'
+2014-07-15 17:29:29,327 INFO  annotation.DefaultAnnotationHandlerMapping - Mapped URL path [/admin.do] onto handler 'adminController'
+2014-07-15 17:29:29,327 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'configController': no URL paths identified
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'loginController'
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'loginController'
+2014-07-15 17:29:29,327 DEBUG annotation.InjectionMetadata - Found injected element on class [com.taobao.diamond.server.controller.LoginController]: AutowiredFieldElement for private com.taobao.diamond.server.service.AdminService com.taobao.diamond.server.controller.LoginController.adminService
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'loginController' to allow for resolving potential circular references
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'adminService'
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Added autowiring by name from bean name 'loginController' via property 'adminService' to bean named 'adminService'
+2014-07-15 17:29:29,327 DEBUG annotation.InjectionMetadata - Processing injected method of bean 'loginController': AutowiredFieldElement for private com.taobao.diamond.server.service.AdminService com.taobao.diamond.server.controller.LoginController.adminService
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'adminService'
+2014-07-15 17:29:29,327 DEBUG annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'loginController' to bean named 'adminService'
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'loginController'
+2014-07-15 17:29:29,327 INFO  annotation.DefaultAnnotationHandlerMapping - Mapped URL path [/login.do] onto handler 'loginController'
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'notifyController'
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'notifyController'
+2014-07-15 17:29:29,327 DEBUG annotation.InjectionMetadata - Found injected element on class [com.taobao.diamond.server.controller.NotifyController]: AutowiredFieldElement for private com.taobao.diamond.server.service.ConfigService com.taobao.diamond.server.controller.NotifyController.configService
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'notifyController' to allow for resolving potential circular references
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'configService'
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Added autowiring by name from bean name 'notifyController' via property 'configService' to bean named 'configService'
+2014-07-15 17:29:29,327 DEBUG annotation.InjectionMetadata - Processing injected method of bean 'notifyController': AutowiredFieldElement for private com.taobao.diamond.server.service.ConfigService com.taobao.diamond.server.controller.NotifyController.configService
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'configService'
+2014-07-15 17:29:29,327 DEBUG annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'notifyController' to bean named 'configService'
+2014-07-15 17:29:29,327 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'notifyController'
+2014-07-15 17:29:29,327 INFO  annotation.DefaultAnnotationHandlerMapping - Mapped URL path [/notify.do] onto handler 'notifyController'
+2014-07-15 17:29:29,327 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'adminService': no URL paths identified
+2014-07-15 17:29:29,327 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'configService': no URL paths identified
+2014-07-15 17:29:29,327 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'diskService': no URL paths identified
+2014-07-15 17:29:29,342 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'notifyService': no URL paths identified
+2014-07-15 17:29:29,342 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'persistService': no URL paths identified
+2014-07-15 17:29:29,342 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'timerTaskService': no URL paths identified
+2014-07-15 17:29:29,342 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2014-07-15 17:29:29,342 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2014-07-15 17:29:29,342 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+2014-07-15 17:29:29,342 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2014-07-15 17:29:29,342 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0': no URL paths identified
+2014-07-15 17:29:29,342 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'environment': no URL paths identified
+2014-07-15 17:29:29,342 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'systemProperties': no URL paths identified
+2014-07-15 17:29:29,342 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'systemEnvironment': no URL paths identified
+2014-07-15 17:29:29,342 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'contextParameters': no URL paths identified
+2014-07-15 17:29:29,342 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'contextAttributes': no URL paths identified
+2014-07-15 17:29:29,342 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'importRegistry': no URL paths identified
+2014-07-15 17:29:29,342 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'messageSource': no URL paths identified
+2014-07-15 17:29:29,342 DEBUG annotation.DefaultAnnotationHandlerMapping - Rejected bean name 'applicationEventMulticaster': no URL paths identified
+2014-07-15 17:29:29,342 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0'
+2014-07-15 17:29:29,342 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0'
+2014-07-15 17:29:29,342 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0'
+2014-07-15 17:29:29,420 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0' to allow for resolving potential circular references
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'adminController'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'configController'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'configController'
+2014-07-15 17:29:29,452 DEBUG annotation.InjectionMetadata - Found injected element on class [com.taobao.diamond.server.controller.ConfigController]: AutowiredFieldElement for private com.taobao.diamond.server.service.ConfigService com.taobao.diamond.server.controller.ConfigController.configService
+2014-07-15 17:29:29,452 DEBUG annotation.InjectionMetadata - Found injected element on class [com.taobao.diamond.server.controller.ConfigController]: AutowiredFieldElement for private com.taobao.diamond.server.service.DiskService com.taobao.diamond.server.controller.ConfigController.diskService
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'configController' to allow for resolving potential circular references
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'configService'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Added autowiring by name from bean name 'configController' via property 'configService' to bean named 'configService'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'diskService'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Added autowiring by name from bean name 'configController' via property 'diskService' to bean named 'diskService'
+2014-07-15 17:29:29,452 DEBUG annotation.InjectionMetadata - Processing injected method of bean 'configController': AutowiredFieldElement for private com.taobao.diamond.server.service.ConfigService com.taobao.diamond.server.controller.ConfigController.configService
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'configService'
+2014-07-15 17:29:29,452 DEBUG annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'configController' to bean named 'configService'
+2014-07-15 17:29:29,452 DEBUG annotation.InjectionMetadata - Processing injected method of bean 'configController': AutowiredFieldElement for private com.taobao.diamond.server.service.DiskService com.taobao.diamond.server.controller.ConfigController.diskService
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'diskService'
+2014-07-15 17:29:29,452 DEBUG annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'configController' to bean named 'diskService'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'configController'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'loginController'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'notifyController'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'adminService'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'configService'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'diskService'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'notifyService'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'persistService'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'timerTaskService'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'timerTaskService'
+2014-07-15 17:29:29,452 DEBUG annotation.CommonAnnotationBeanPostProcessor - Found init method on class [com.taobao.diamond.server.service.TimerTaskService]: public void com.taobao.diamond.server.service.TimerTaskService.init()
+2014-07-15 17:29:29,452 DEBUG annotation.CommonAnnotationBeanPostProcessor - Found destroy method on class [com.taobao.diamond.server.service.TimerTaskService]: public void com.taobao.diamond.server.service.TimerTaskService.dispose()
+2014-07-15 17:29:29,452 DEBUG annotation.CommonAnnotationBeanPostProcessor - Found init method on class [com.taobao.diamond.server.service.TimerTaskService]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@316510
+2014-07-15 17:29:29,452 DEBUG annotation.CommonAnnotationBeanPostProcessor - Found destroy method on class [com.taobao.diamond.server.service.TimerTaskService]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@63a5261f
+2014-07-15 17:29:29,452 DEBUG annotation.InjectionMetadata - Found injected element on class [com.taobao.diamond.server.service.TimerTaskService]: AutowiredFieldElement for private com.taobao.diamond.server.service.PersistService com.taobao.diamond.server.service.TimerTaskService.persistService
+2014-07-15 17:29:29,452 DEBUG annotation.InjectionMetadata - Found injected element on class [com.taobao.diamond.server.service.TimerTaskService]: AutowiredFieldElement for private com.taobao.diamond.server.service.DiskService com.taobao.diamond.server.service.TimerTaskService.diskService
+2014-07-15 17:29:29,452 DEBUG annotation.InjectionMetadata - Found injected element on class [com.taobao.diamond.server.service.TimerTaskService]: AutowiredFieldElement for private com.taobao.diamond.server.service.ConfigService com.taobao.diamond.server.service.TimerTaskService.configService
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'timerTaskService' to allow for resolving potential circular references
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'configService'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Added autowiring by name from bean name 'timerTaskService' via property 'configService' to bean named 'configService'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'diskService'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Added autowiring by name from bean name 'timerTaskService' via property 'diskService' to bean named 'diskService'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'persistService'
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Added autowiring by name from bean name 'timerTaskService' via property 'persistService' to bean named 'persistService'
+2014-07-15 17:29:29,452 DEBUG annotation.InjectionMetadata - Processing injected method of bean 'timerTaskService': AutowiredFieldElement for private com.taobao.diamond.server.service.PersistService com.taobao.diamond.server.service.TimerTaskService.persistService
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'persistService'
+2014-07-15 17:29:29,452 DEBUG annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'timerTaskService' to bean named 'persistService'
+2014-07-15 17:29:29,452 DEBUG annotation.InjectionMetadata - Processing injected method of bean 'timerTaskService': AutowiredFieldElement for private com.taobao.diamond.server.service.DiskService com.taobao.diamond.server.service.TimerTaskService.diskService
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'diskService'
+2014-07-15 17:29:29,452 DEBUG annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'timerTaskService' to bean named 'diskService'
+2014-07-15 17:29:29,452 DEBUG annotation.InjectionMetadata - Processing injected method of bean 'timerTaskService': AutowiredFieldElement for private com.taobao.diamond.server.service.ConfigService com.taobao.diamond.server.service.TimerTaskService.configService
+2014-07-15 17:29:29,452 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'configService'
+2014-07-15 17:29:29,452 DEBUG annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'timerTaskService' to bean named 'configService'
+2014-07-15 17:29:29,452 DEBUG annotation.CommonAnnotationBeanPostProcessor - Invoking init method on bean 'timerTaskService': public void com.taobao.diamond.server.service.TimerTaskService.init()
+2014-07-15 17:29:29,467 DEBUG core.JdbcTemplate - Executing prepared SQL query
+2014-07-15 17:29:29,467 DEBUG core.JdbcTemplate - Executing prepared SQL statement [select count(id) from config_info order by id]
+2014-07-15 17:29:29,467 DEBUG datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2014-07-15 17:29:29,795 DEBUG datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2014-07-15 17:29:29,795 DEBUG core.JdbcTemplate - Executing prepared SQL query
+2014-07-15 17:29:29,795 DEBUG core.JdbcTemplate - Executing prepared SQL statement [select id,data_id,group_id,content,md5 from config_info order by id  limit 0,1000]
+2014-07-15 17:29:29,795 DEBUG datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2014-07-15 17:29:29,811 DEBUG datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2014-07-15 17:29:29,811 DEBUG md5.MD5 - [hash]098f6bcd4621d373cade4e832627b4f6
+2014-07-15 17:29:29,889 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'timerTaskService'
+2014-07-15 17:29:29,889 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2014-07-15 17:29:29,889 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2014-07-15 17:29:29,889 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2014-07-15 17:29:29,889 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2014-07-15 17:29:29,889 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+2014-07-15 17:29:29,889 DEBUG support.XmlWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@6eb59c]
+2014-07-15 17:29:29,889 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+2014-07-15 17:29:29,889 DEBUG context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2014-07-15 17:29:29,889 INFO  context.ContextLoader - Root WebApplicationContext: initialization completed in 1172 ms
+2014-07-15 17:29:29,889 DEBUG support.StandardServletEnvironment - Initializing new StandardServletEnvironment
+2014-07-15 17:29:29,889 DEBUG support.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2014-07-15 17:29:29,905 DEBUG support.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2014-07-15 17:29:29,905 DEBUG support.StandardServletEnvironment - Adding [jndiProperties] PropertySource with lowest search precedence
+2014-07-15 17:29:29,905 DEBUG support.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:29:29,905 DEBUG support.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:29:29,905 DEBUG support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2014-07-15 17:29:29,905 DEBUG filter.CharacterEncodingFilter - Initializing filter 'encodingFilter'
+2014-07-15 17:29:29,905 DEBUG filter.CharacterEncodingFilter - Filter 'encodingFilter' configured successfully
+2014-07-15 17:29:29,920 DEBUG support.StandardServletEnvironment - Initializing new StandardServletEnvironment
+2014-07-15 17:29:29,920 DEBUG support.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2014-07-15 17:29:29,920 DEBUG support.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2014-07-15 17:29:29,920 DEBUG support.StandardServletEnvironment - Adding [jndiProperties] PropertySource with lowest search precedence
+2014-07-15 17:29:29,920 DEBUG support.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:29:29,920 DEBUG support.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:29:29,920 DEBUG support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2014-07-15 17:29:29,936 DEBUG servlet.DispatcherServlet - Initializing servlet 'diamond'
+2014-07-15 17:29:29,936 INFO  servlet.DispatcherServlet - FrameworkServlet 'diamond': initialization started
+2014-07-15 17:29:29,936 DEBUG servlet.DispatcherServlet - Servlet with name 'diamond' will try to create custom WebApplicationContext context of class 'org.springframework.web.context.support.XmlWebApplicationContext', using parent context [Root WebApplicationContext: startup date [Tue Jul 15 17:29:28 CST 2014]; root of context hierarchy]
+2014-07-15 17:29:29,936 DEBUG support.StandardServletEnvironment - Initializing new StandardServletEnvironment
+2014-07-15 17:29:29,936 DEBUG support.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2014-07-15 17:29:29,936 DEBUG support.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2014-07-15 17:29:29,936 DEBUG support.StandardServletEnvironment - Adding [jndiProperties] PropertySource with lowest search precedence
+2014-07-15 17:29:29,936 DEBUG support.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:29:29,936 DEBUG support.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:29:29,936 DEBUG support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2014-07-15 17:29:29,936 INFO  support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'diamond-servlet': startup date [Tue Jul 15 17:29:29 CST 2014]; parent: Root WebApplicationContext
+2014-07-15 17:29:29,936 DEBUG support.StandardServletEnvironment - Replacing [servletConfigInitParams] PropertySource with [servletConfigInitParams]
+2014-07-15 17:29:29,936 DEBUG env.StandardEnvironment - Initializing new StandardEnvironment
+2014-07-15 17:29:29,936 DEBUG env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:29:29,936 DEBUG env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:29:29,936 DEBUG env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-07-15 17:29:29,936 DEBUG env.StandardEnvironment - Initializing new StandardEnvironment
+2014-07-15 17:29:29,936 DEBUG env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:29:29,936 DEBUG env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:29:29,936 DEBUG env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-07-15 17:29:29,936 INFO  xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/diamond-servlet.xml]
+2014-07-15 17:29:29,936 DEBUG xml.DefaultDocumentLoader - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2014-07-15 17:29:29,936 DEBUG xml.PluggableSchemaResolver - Loading schema mappings from [META-INF/spring.schemas]
+2014-07-15 17:29:29,952 DEBUG xml.PluggableSchemaResolver - Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+2014-07-15 17:29:29,952 DEBUG xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2014-07-15 17:29:29,952 DEBUG xml.DefaultBeanDefinitionDocumentReader - Loading bean definitions
+2014-07-15 17:29:29,967 DEBUG xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from location pattern [/WEB-INF/diamond-servlet.xml]
+2014-07-15 17:29:29,967 DEBUG support.XmlWebApplicationContext - Bean factory for WebApplicationContext for namespace 'diamond-servlet': org.springframework.beans.factory.support.DefaultListableBeanFactory@3aaebf: defining beans [viewResolver]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@16246a9
+2014-07-15 17:29:29,967 DEBUG support.XmlWebApplicationContext - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1eea508]
+2014-07-15 17:29:29,967 DEBUG support.XmlWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@94edbb]
+2014-07-15 17:29:29,967 DEBUG support.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@183bb5e]
+2014-07-15 17:29:29,967 INFO  support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3aaebf: defining beans [viewResolver]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@16246a9
+2014-07-15 17:29:29,967 DEBUG support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewResolver'
+2014-07-15 17:29:29,967 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'viewResolver'
+2014-07-15 17:29:29,967 DEBUG support.DefaultListableBeanFactory - Eagerly caching bean 'viewResolver' to allow for resolving potential circular references
+2014-07-15 17:29:29,999 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'viewResolver'
+2014-07-15 17:29:29,999 DEBUG support.XmlWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@b48537]
+2014-07-15 17:29:29,999 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+2014-07-15 17:29:29,999 DEBUG servlet.DispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+2014-07-15 17:29:29,999 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2014-07-15 17:29:29,999 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2014-07-15 17:29:29,999 DEBUG servlet.DispatcherServlet - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@1e7c512]
+2014-07-15 17:29:29,999 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2014-07-15 17:29:29,999 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2014-07-15 17:29:29,999 DEBUG servlet.DispatcherServlet - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@5e7588]
+2014-07-15 17:29:29,999 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0'
+2014-07-15 17:29:29,999 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0'
+2014-07-15 17:29:29,999 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerExceptionResolver'
+2014-07-15 17:29:29,999 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerExceptionResolver'
+2014-07-15 17:29:30,014 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver'
+2014-07-15 17:29:30,014 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver'
+2014-07-15 17:29:30,014 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver'
+2014-07-15 17:29:30,014 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver'
+2014-07-15 17:29:30,014 DEBUG servlet.DispatcherServlet - No HandlerExceptionResolvers found in servlet 'diamond': using default
+2014-07-15 17:29:30,014 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2014-07-15 17:29:30,014 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2014-07-15 17:29:30,014 DEBUG servlet.DispatcherServlet - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@161f68]
+2014-07-15 17:29:30,014 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'viewResolver'
+2014-07-15 17:29:30,014 DEBUG support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2014-07-15 17:29:30,014 DEBUG support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2014-07-15 17:29:30,014 DEBUG servlet.DispatcherServlet - Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@1bb62bd]
+2014-07-15 17:29:30,014 DEBUG servlet.DispatcherServlet - Published WebApplicationContext of servlet 'diamond' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.diamond]
+2014-07-15 17:29:30,014 INFO  servlet.DispatcherServlet - FrameworkServlet 'diamond': initialization completed in 78 ms
+2014-07-15 17:29:30,014 DEBUG servlet.DispatcherServlet - Servlet 'diamond' configured successfully
+2014-07-15 17:39:29,889 DEBUG core.JdbcTemplate - Executing prepared SQL query
+2014-07-15 17:39:29,889 DEBUG core.JdbcTemplate - Executing prepared SQL statement [select count(id) from config_info order by id]
+2014-07-15 17:39:29,889 DEBUG datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2014-07-15 17:39:29,889 DEBUG datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2014-07-15 17:39:29,889 DEBUG core.JdbcTemplate - Executing prepared SQL query
+2014-07-15 17:39:29,889 DEBUG core.JdbcTemplate - Executing prepared SQL statement [select id,data_id,group_id,content,md5 from config_info order by id  limit 0,1000]
+2014-07-15 17:39:29,889 DEBUG datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2014-07-15 17:39:29,889 DEBUG datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2014-07-15 17:39:29,889 DEBUG md5.MD5 - [hash]098f6bcd4621d373cade4e832627b4f6
+2014-07-15 17:40:23,014 DEBUG servlet.DispatcherServlet - DispatcherServlet with name 'diamond' processing POST request for [/diamond-server/login.do]
+2014-07-15 17:40:23,014 DEBUG annotation.DefaultAnnotationHandlerMapping - Mapping [/login.do] to HandlerExecutionChain with handler [com.taobao.diamond.server.controller.LoginController@1ccc7b7] and 1 interceptor
+2014-07-15 17:40:23,045 DEBUG support.HandlerMethodInvoker - Invoking request handler method: public java.lang.String com.taobao.diamond.server.controller.LoginController.login(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,org.springframework.ui.ModelMap)
+2014-07-15 17:40:23,045 DEBUG support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'admin/admin'
+2014-07-15 17:40:23,045 DEBUG servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.JstlView: name 'admin/admin'; URL [/jsp/admin/admin.jsp]] in DispatcherServlet with name 'diamond'
+2014-07-15 17:40:23,061 DEBUG view.JstlView - Forwarding to resource [/jsp/admin/admin.jsp] in InternalResourceView 'admin/admin'
+2014-07-15 17:40:23,061 DEBUG servlet.DispatcherServlet - Successfully completed request
+2014-07-15 17:40:27,858 DEBUG servlet.DispatcherServlet - DispatcherServlet with name 'diamond' processing GET request for [/diamond-server/admin.do]
+2014-07-15 17:40:27,858 DEBUG annotation.DefaultAnnotationHandlerMapping - Mapping [/admin.do] to HandlerExecutionChain with handler [com.taobao.diamond.server.controller.AdminController@d8880c] and 1 interceptor
+2014-07-15 17:40:27,858 DEBUG servlet.DispatcherServlet - Last-Modified value for [/diamond-server/admin.do] is: -1
+2014-07-15 17:40:27,858 DEBUG support.HandlerMethodInvoker - Invoking request handler method: public java.lang.String com.taobao.diamond.server.controller.AdminController.listUser(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.ModelMap)
+2014-07-15 17:40:27,858 DEBUG support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name '/admin/user/list'
+2014-07-15 17:40:27,858 DEBUG servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.JstlView: name '/admin/user/list'; URL [/jsp//admin/user/list.jsp]] in DispatcherServlet with name 'diamond'
+2014-07-15 17:40:27,858 DEBUG view.JstlView - Added model object 'userMap' of type [java.util.HashMap] to request in view with name '/admin/user/list'
+2014-07-15 17:40:27,858 DEBUG view.JstlView - Forwarding to resource [/jsp//admin/user/list.jsp] in InternalResourceView '/admin/user/list'
+2014-07-15 17:40:27,874 DEBUG servlet.DispatcherServlet - Successfully completed request
+2014-07-15 17:40:29,077 DEBUG servlet.DispatcherServlet - DispatcherServlet with name 'diamond' processing GET request for [/diamond-server/admin.do]
+2014-07-15 17:40:29,077 DEBUG annotation.DefaultAnnotationHandlerMapping - Mapping [/admin.do] to HandlerExecutionChain with handler [com.taobao.diamond.server.controller.AdminController@d8880c] and 1 interceptor
+2014-07-15 17:40:29,077 DEBUG servlet.DispatcherServlet - Last-Modified value for [/diamond-server/admin.do] is: -1
+2014-07-15 17:40:29,077 DEBUG support.HandlerMethodInvoker - Invoking request handler method: public java.lang.String com.taobao.diamond.server.controller.AdminController.listUser(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.ModelMap)
+2014-07-15 17:40:29,077 DEBUG servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.JstlView: name '/admin/user/list'; URL [/jsp//admin/user/list.jsp]] in DispatcherServlet with name 'diamond'
+2014-07-15 17:40:29,077 DEBUG view.JstlView - Added model object 'userMap' of type [java.util.HashMap] to request in view with name '/admin/user/list'
+2014-07-15 17:40:29,077 DEBUG view.JstlView - Forwarding to resource [/jsp//admin/user/list.jsp] in InternalResourceView '/admin/user/list'
+2014-07-15 17:40:29,077 DEBUG servlet.DispatcherServlet - Successfully completed request
+2014-07-15 17:40:45,327 DEBUG servlet.DispatcherServlet - DispatcherServlet with name 'diamond' processing GET request for [/diamond-server/admin.do]
+2014-07-15 17:40:45,327 DEBUG annotation.DefaultAnnotationHandlerMapping - Mapping [/admin.do] to HandlerExecutionChain with handler [com.taobao.diamond.server.controller.AdminController@d8880c] and 1 interceptor
+2014-07-15 17:40:45,327 DEBUG servlet.DispatcherServlet - Last-Modified value for [/diamond-server/admin.do] is: -1
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Initializing new StandardEnvironment
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Initializing new StandardEnvironment
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Initializing new StandardEnvironment
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Initializing new StandardEnvironment
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Initializing new StandardEnvironment
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:40:45,327 DEBUG env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Initializing new StandardEnvironment
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Initializing new StandardEnvironment
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Initializing new StandardEnvironment
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Initializing new StandardEnvironment
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Initializing new StandardEnvironment
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-07-15 17:40:45,342 DEBUG env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-07-15 17:40:45,342 DEBUG support.HandlerMethodInvoker - Invoking request handler method: public java.lang.String com.taobao.diamond.server.controller.AdminController.listConfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,int,int,org.springframework.ui.ModelMap)
+2014-07-15 17:40:45,342 DEBUG core.JdbcTemplate - Executing prepared SQL query
+2014-07-15 17:40:45,342 DEBUG core.JdbcTemplate - Executing prepared SQL statement [select count(id) from config_info order by id]
+2014-07-15 17:40:45,342 DEBUG datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2014-07-15 17:40:45,342 DEBUG datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2014-07-15 17:40:45,342 DEBUG core.JdbcTemplate - Executing prepared SQL query
+2014-07-15 17:40:45,342 DEBUG core.JdbcTemplate - Executing prepared SQL statement [select id,data_id,group_id,content,md5 from config_info order by id  limit 0,15]
+2014-07-15 17:40:45,342 DEBUG datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2014-07-15 17:40:45,342 DEBUG datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2014-07-15 17:40:45,342 DEBUG support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name '/admin/config/list'
+2014-07-15 17:40:45,342 DEBUG servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.JstlView: name '/admin/config/list'; URL [/jsp//admin/config/list.jsp]] in DispatcherServlet with name 'diamond'
+2014-07-15 17:40:45,342 DEBUG view.JstlView - Added model object 'group' of type [java.lang.String] to request in view with name '/admin/config/list'
+2014-07-15 17:40:45,342 DEBUG view.JstlView - Added model object 'page' of type [com.taobao.diamond.domain.Page] to request in view with name '/admin/config/list'
+2014-07-15 17:40:45,342 DEBUG view.JstlView - Added model object 'org.springframework.validation.BindingResult.page' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name '/admin/config/list'
+2014-07-15 17:40:45,342 DEBUG view.JstlView - Added model object 'dataId' of type [java.lang.String] to request in view with name '/admin/config/list'
+2014-07-15 17:40:45,342 DEBUG view.JstlView - Forwarding to resource [/jsp//admin/config/list.jsp] in InternalResourceView '/admin/config/list'
+2014-07-15 17:40:45,374 DEBUG servlet.DispatcherServlet - Successfully completed request
+2014-07-15 17:40:51,030 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'configService'
+2014-07-15 17:40:51,030 DEBUG support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'diskService'
+2014-07-15 17:49:29,889 DEBUG core.JdbcTemplate - Executing prepared SQL query
+2014-07-15 17:49:29,889 DEBUG core.JdbcTemplate - Executing prepared SQL statement [select count(id) from config_info order by id]
+2014-07-15 17:49:29,889 DEBUG datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2014-07-15 17:49:29,889 DEBUG datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2014-07-15 17:49:29,889 DEBUG core.JdbcTemplate - Executing prepared SQL query
+2014-07-15 17:49:29,889 DEBUG core.JdbcTemplate - Executing prepared SQL statement [select id,data_id,group_id,content,md5 from config_info order by id  limit 0,1000]
+2014-07-15 17:49:29,889 DEBUG datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2014-07-15 17:49:29,905 DEBUG datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2014-07-15 17:49:29,905 DEBUG md5.MD5 - [hash]098f6bcd4621d373cade4e832627b4f6
+2014-07-15 17:59:29,925 DEBUG core.JdbcTemplate - Executing prepared SQL query
+2014-07-15 17:59:29,925 DEBUG core.JdbcTemplate - Executing prepared SQL statement [select count(id) from config_info order by id]
+2014-07-15 17:59:29,925 DEBUG datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2014-07-15 17:59:29,925 DEBUG datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2014-07-15 17:59:29,925 DEBUG core.JdbcTemplate - Executing prepared SQL query
+2014-07-15 17:59:29,925 DEBUG core.JdbcTemplate - Executing prepared SQL statement [select id,data_id,group_id,content,md5 from config_info order by id  limit 0,1000]
+2014-07-15 17:59:29,925 DEBUG datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2014-07-15 17:59:29,925 DEBUG datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2014-07-15 17:59:29,925 DEBUG md5.MD5 - [hash]098f6bcd4621d373cade4e832627b4f6
